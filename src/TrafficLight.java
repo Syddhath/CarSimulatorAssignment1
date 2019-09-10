@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class trafficLight {
+public class TrafficLight {
     final int Red = 0;
     final int Green = 1;
     Random rand = new Random();

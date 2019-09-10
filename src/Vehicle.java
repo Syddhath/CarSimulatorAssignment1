@@ -1,9 +1,6 @@
 public class Vehicle {
-    private String name = "Car";
+    public int car = 0;
     private trafficLight tl;
-
-    public String getName() {
-        this.name = "Car";
-        return name;
-    }
 }
+
+
