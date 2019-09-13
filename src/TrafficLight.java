@@ -11,7 +11,7 @@ public class TrafficLight {
         Change = this.rand.nextInt(2);
         if (Change == Red) {
             System.out.println("RED LIGHT");
-            System.out.println();
+            System.out.println("car stops in Road1 Segment 10");
         } else
             //if (lightChange == Green) {
             System.out.println("Light is green");
@@ -19,6 +19,4 @@ public class TrafficLight {
         //   System.out.println("Car Disappear");
     }
 }
-
-
 //color change

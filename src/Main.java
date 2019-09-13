@@ -1,11 +1,24 @@
-
-
 public class Main {
 
     public static void main(String[] args) {
-        Road road1 = new Road(1, 0, 0, 10, 20);
-        Vehicle vehicle = new Vehicle();
+        Road road = new Road(1, 0, 10);
+        Road road2 = new Road(20);
+        Vehicle vehicle = new Vehicle(0, 0);
         TrafficLight light = new TrafficLight();
+
+        while (vehicle.startpoint <= road.getEndofroad1()) {
+            if (road.getRoad() == 1 && road.segment < 10) {
+                System.out.println("car is moving in Road" + road.getRoad() + " Segment " + road.segment);
+                road.segment++;
+            }
+            if (road.segment == 10) {
+                light.colorChange();
+                break;
+            }
+        }
+    }
+}
+
 //        road.carArrive();
 //
 //
@@ -19,5 +32,4 @@ public class Main {
 //        }else
 //    }
 
-    }
-}
+
