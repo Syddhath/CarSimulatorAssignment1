@@ -6,17 +6,15 @@ public class TrafficLight {
     Random rand = new Random();
     int Change;
     //There are two traffic light: Red and Green;
-    public void colorChange() {
+    public int colorChange() {
 
         Change = this.rand.nextInt(2);
-        if (Change == Red) {
-            System.out.println("RED LIGHT");
-            System.out.println("car stops in Road1 Segment 10");
-        } else
-            //if (lightChange == Green) {
-            System.out.println("Light is green");
-        //else {
-        //   System.out.println("Car Disappear");
+        if (Change == 0) {
+            return Green;
+        } else {
+            return Red;
+
+        }
+
     }
 }
-//color change
