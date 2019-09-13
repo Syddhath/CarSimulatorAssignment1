@@ -3,8 +3,9 @@ import java.util.Random;
 public class TrafficLight {
     final int Red = 0;
     final int Green = 1;
-    Random rand = new Random();
     int Change;
+    Random rand = new Random();
+
     //There are two traffic light: Red and Green;
     public int colorChange() {
 
@@ -13,8 +14,6 @@ public class TrafficLight {
             return Green;
         } else {
             return Red;
-
         }
-
     }
 }

@@ -1,7 +1,6 @@
 public class Road {
     int road;
     int segment;
-    int endofroad;
     int length;
     Road next;
 
@@ -10,17 +9,11 @@ public class Road {
         this.segment = segment;
         this.length = length;
     }
-
     public void setNext(Road next) {
         this.next = next;
     }
     public int getRoad() {
         return road;
     }
-
-    public int getEndofroad() {
-        return endofroad;
-    }
-
 }
 

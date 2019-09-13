@@ -1,11 +1,11 @@
 public class Vehicle {
 
-    int startpoint;
+    int startPoint;
     int position;
 
-    public Vehicle(int startpoint, int position) {
+    public Vehicle(int startPoint, int position) {
 
-        this.startpoint = startpoint;
+        this.startPoint = startPoint;
         this.position = position;
     }
 
