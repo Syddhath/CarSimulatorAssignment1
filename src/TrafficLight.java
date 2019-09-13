@@ -4,21 +4,21 @@ public class TrafficLight {
     final int Red = 0;
     final int Green = 1;
     Random rand = new Random();
-    int lightChange = this.rand.nextInt(2);
-
-
+    int Change;
     //There are two traffic light: Red and Green;
-    public String trafficLightChange() {
-        if (lightChange == Red) {
-            return "Sid's car stopped";
-        } else if (lightChange == Green) {
-            return "Sid's car is in Road 5";
-        } else {
-            return "Car Disappear";
-        }
+    public void colorChange() {
+
+        Change = this.rand.nextInt(2);
+        if (Change == Red) {
+            System.out.println("RED LIGHT");
+            System.out.println();
+        } else
+            //if (lightChange == Green) {
+            System.out.println("Light is green");
+        //else {
+        //   System.out.println("Car Disappear");
     }
 }
 
 
-
-
+//color change

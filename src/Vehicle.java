@@ -1,6 +1,25 @@
 public class Vehicle {
-    public int car = 0;
-    private trafficLight tl;
+
+    int startpoint;
+    int position;
+
+
+    public Vehicle(int startpoint, int startY) {
+
+        this.startpoint = startpoint;
+        this.position = position;
+    }
+
 }
 
 
+//car={rn[0],0};
+//for(int i = 0; i<rn.length;i++){
+//    if(car[0]==road.getroadnum()){}
+//        }
+
+//position: int
+//current: road
+//
+//+move
+//+setCurrent(road)
