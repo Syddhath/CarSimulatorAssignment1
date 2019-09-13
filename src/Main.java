@@ -1,5 +1,4 @@
 public class Main {
-
     public static void main(String[] args) {
         Road road1 = new Road(1, 0, 10);
         Road road2 = new Road(2, 0, 10);
@@ -31,37 +30,13 @@ public class Main {
             } else {
                 current.segment = 0;
                 while (current.segment <= current.length) {
-//                     (current.getRoad() == 1 && current.segment < 10) {
                     System.out.println("car is moving in Road" + current.getRoad() + " Segment " + current.segment);
                     current.segment++;
-
-
                 }
             }
             current = current.next;
         }
     }
 }
-//        while (vehicle.startpoint <= road2.getEndofroad()){
-//            if (road2.getRoad() == 2  &&  road2.segment<20){
-//                System.out.println("car is moving in Road" + road2.getRoad() + " Segment " + road2.segment);
-//                road2.segment++;
-//            }if (road2.segment == 20);
-//            System.out.println("END  OF THE  ROAD");
-//            break;
-
-
-//        road.carArrive();
-//
-//
-//        for (int i = 0; i < segment.length; i++) {
-//            //System.out.println("road1 seg " + segment[i]);
-//            System.out.println("Car is in Road " + roads[0] + " Segment " + (segment[0] + i));
-//            //" position " + (vehicle.car + i) );
-//        }trafficLight.colorChange();
-//        if (trafficLight.lightChange==0){
-//
-//        }else
-//    }
 
 

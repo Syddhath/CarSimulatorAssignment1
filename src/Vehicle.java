@@ -1,23 +1,19 @@
+/**
+ * @author Siddharth Parmar
+ * The Vehicle class include the position of the car and the movement of it.
+ * Field includes startPoint and position.
+ */
+
 public class Vehicle {
 
     int startPoint;
     int position;
 
+    // Vehicle show the start position of the car.
     public Vehicle(int startPoint, int position) {
 
         this.startPoint = startPoint;
         this.position = position;
     }
-
 }
-//car={rn[0],0};
-//for(int i = 0; i<rn.length;i++){
-//    if(car[0]==road.getroadnum()){}
-//        }
-
-//position: int
-//current: road
-//
-//+move
-//+setCurrent(road)
 
